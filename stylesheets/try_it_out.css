@@ -1,0 +1,17 @@
+#try_it_out_container {
+  width: 542px;
+  font-size: 46px;
+}
+
+#try_it_out_container, #text_to_fit {
+  margin-top: 1em;
+  border: 2px solid #d7d7d7;
+  padding: 1em;
+}
+
+#text_dimensions input {
+  text-align: right;
+  width: 50px;
+}
+
+
