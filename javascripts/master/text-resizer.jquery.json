@@ -1,0 +1,23 @@
+{
+    "name": "text-resizer",
+    "title": "Text Resizer",
+    "description": "jQuery plugin for resizing/reflowing text to fit an area",
+    "keywords": [
+        "resize",
+        "reflow"
+    ],
+    "version": "1.0.0",
+    "author": {
+        "name": "Josiah Gore",
+        "email": "josiahgore@gmial.com"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://opensource.org/licenses/MIT"
+        }
+    ],
+    "dependencies": {
+        "jquery": ">=1.5"
+    }
+}
