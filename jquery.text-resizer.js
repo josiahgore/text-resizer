@@ -14,7 +14,6 @@
       }, options);
       options.width = parseInt(options.width);
       options.height = parseInt(options.height);
-      console.log(options);
 
       var fontSize = parseInt(textBody.css('font-size'));
       var lineHeight = parseInt(textBody.css('line-height'));
@@ -36,10 +35,8 @@
         if (i++ % 2 == 0) {
           fontSize *= options.scaleFactor;
           resizer.css('font-size', fontSize + 'px');
-          console.log(['resizing', fontSize, resizer.height(), options.height, resizer.height() > options.height]);
         } else {
           resizer.css('line-height', lineHeight / ++lines + 'px');
-          console.log(['reheighting', resizer.css('line-height'), resizer.height(), options.height, resizer.height() > options.height]);
         }
       }
 
