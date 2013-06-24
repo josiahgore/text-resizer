@@ -1,5 +1,6 @@
 /**
- * jQuery extension to resize/reflow dynamic text to fit a space
+ * jQuery extension to resize/reflow dynamic text to fit a space.
+ * License: MIT (http://opensource.org/licenses/MIT)
  */
 (function($) {
   $.fn.resizeToFit = function(options) {
